@@ -1,4 +1,6 @@
-
+section {
+    scroll-margin-top: 400px; /* Adjust based on your header height */
+  }
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;

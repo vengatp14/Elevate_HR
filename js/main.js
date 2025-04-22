@@ -102,3 +102,17 @@
 
 })(jQuery);
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    var navbarCollapse = document.getElementById('navbarCollapse');
+
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+            if (window.innerWidth < 1200 && navbarCollapse.classList.contains('show')) {
+                new bootstrap.Collapse(navbarCollapse).hide();
+            }
+        });
+    });
+});
+
