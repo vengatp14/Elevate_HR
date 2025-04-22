@@ -1,6 +1,17 @@
 section {
     scroll-margin-top: 400px; /* Adjust based on your header height */
   }
+  .display-1 {
+    font-size: 3rem !important;
+}
+  .navbar .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f5f900 !important;
+    border-radius: 10px;
+}
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
