@@ -687,7 +687,11 @@
                         <p class="mb-4">Have questions or need expert HR solutions? Reach out to Elevate—we’re here to
                             help you grow with the right talent. Contact us today for personalized support and fast
                             responses.</p>
-                        <form action=" ">
+                        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                            <input type="hidden" name="access_key" value="7f3a7711-dbc4-4c28-baa9-e466b9794fcf " />
+                            <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                            <input type="checkbox" name="botcheck" id="" style="display: none;" />
                             <div class="row g-3">
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating">
@@ -714,21 +718,21 @@
                                     <div class="form-floating">
                                         <input type="text" class="form-control border-0" id="project"
                                             placeholder="Project" required>
-                                        <label for="project">Your Project</label>
+                                        <label for="project">Your Skills</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <input type="text" class="form-control border-0" id="subject"
                                             placeholder="Subject" required>
-                                        <label for="subject">Subject</label>
+                                        <label for="subject">No Of Years Experience</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea class="form-control border-0" placeholder="Leave a message here"
                                             id="message" style="height: 120px" required></textarea>
-                                        <label for="message">Message</label>
+                                        <label for="message">Brief About Your Skills</label>
                                     </div>
 
                                 </div>
